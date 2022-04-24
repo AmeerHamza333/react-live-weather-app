@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main1{
+  height: 100vh;
+   width: 100vw;
+   display: flex;
+    justify-content: center;
+     align-items: center
+}
+.main2{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+    height: 80vh;
+     width: 70vw;
+      background-color: yellow;
+       border-radius:20px;
+        box-shadow: 3px 3px 5px 5px gray
+}
+
+.headings{
+color: rgb(31, 246, 106);
+text-shadow: 2px 2px gray;
+font-family: 'Righteous'
+}
+
+.heading{
+  color: rgb(242, 32, 221);
+text-shadow: 1px 1px gray;
+
+}
+
+.headin{
+  color: rgb(242, 32, 221);
+text-shadow: 0.4px 0.7px gray;
+font-family: 'Didact Gothic'
+
+}
+
+.bottomdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20vh;
+width: 70vw;
+
+}
+
+.inner{
+height: 18vh;
+width: 15vw;
+margin-top: 20px;
+margin-right: 5px;
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 2px 2px 3px 3px gray;
+margin-left: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.headingo{
+  color: rgb(20, 243, 12);
+  text-shadow: 0.4px 0.7px gray;
+  font-size: 1.3rem;
+  font-family: 'Rajdhani'
+}
+
+@media only screen and (max-width: 600px) {
+  .bottomdiv {
+flex-direction: column;
+justify-content:start;
+  }
+  .inner{
+    height: 40vh;
+    width: 55vw;
+  }
+.main2{
+  height: 200vh;
+  width: 80vw;
+}
+
+}
